@@ -296,8 +296,8 @@ function delisle_to_kelvin($given_value)
 // Delisle to rankine
 function delisle_to_rankine($given_value)
 {
-    $rankine=(671.67-$given_value)*6/5;
-    return number_format($rankine,2);
+	$rankine=(671.67-$given_value)*6/5;
+	return number_format($rankine,2);
 }
 // Delisle to newton
 function delisle_to_newton($given_value)
@@ -314,8 +314,8 @@ function delisle_to_romer($given_value)
 // Delisle to reaumur
 function delisle_to_reaumur($given_value)
 {
-    $reaumur=(80-$given_value)*8/15;
-    return number_format($reaumur,2);
+	$reaumur=(80-$given_value)*8/15;
+	return number_format($reaumur,2);
 }
 // Romer to fahrenheit
 function romer_to_fahrenheit($given_value)

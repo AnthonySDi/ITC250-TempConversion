@@ -165,22 +165,22 @@
             $fahrenheit=delisle_to_fahrenheit($given_value);
             $result = "$given_value Delisle = $fahrenheit Fahrenheit";
         } elseif ($second_temp_type_name=='celsius') {
-            $celsius=rankine_to_celsius($given_value);
+            $celsius=delisle_to_celsius($given_value);
             $result = "$given_value Delisle = $celsius Celsius";
         } elseif ($second_temp_type_name=='kelvin') {
-            $kelvin=rankine_to_kelvin($given_value);
+            $kelvin=delisle_to_kelvin($given_value);
             $result = "$given_value Delisle = $kelvin Kelvin";
         } elseif ($second_temp_type_name=='rankine') {
-            $rankine=rankine_to_rankine($given_value);
+            $rankine=delisle_to_rankine($given_value);
             $result = "$given_value Delisle = $rankine Rankine";
         } elseif ($second_temp_type_name=='newton') {
-            $newton=rankine_to_newton($given_value);
+            $newton=delisle_to_newton($given_value);
             $result = "$given_value Delisle = $newton Newton";
         } elseif ($second_temp_type_name=='reaumur') {
-            $reaumur=rankine_to_reamur($given_value);
+            $reaumur=delisle_to_reaumur($given_value);
             $result = "$given_value Delisle = $reaumur Reaumur";
         } elseif ($second_temp_type_name=='romer') {
-            $romer=rankine_to_romer($given_value);
+            $romer=delisle_to_romer($given_value);
             $result = "$given_value Delisle = $romer Romer";
         } else {
             $result = "$given_value Delisle";
