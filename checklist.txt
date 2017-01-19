@@ -1,0 +1,45 @@
+// *** Rankine to Celsuis ° C = (RK - 491.67) * 1.8   *Not varified c=rk-491.67)*(5/9)
+//Rankine to Fahrenheit ° F = RK - 459.67  Verified
+//Rankine to Kelvin ° K = RK / 1.8
+//Rankine to Newton ° N = (RK - 491.67) * 11 / 60
+// *** Rankine to Delisle ° D = (671.67 - RK) * 5 / 6  
+*Not Verified  D = (RK - 491.67) * (4/9)
+// *** Rankine to Romer ° RO = ((RK - 491.67) * 0.02967)) + 7.5 *Not varified RO = ((RK - 491.67) * 0.29167)) + 7.5
+//Rankine to Reaumur ° RE = (RK - 491.67) / 2.25
+
+//Delisle to Celsuis ° C = (100 - D) * 2  / 3 
+*Not Verified C = 100 - D * (2/3)
+//Delisle to Fahrenheit ° F = (D + 100) * 1.2 + 32 
+*Not Verified F = 212- d * (6/5)
+//Delisle to Kelvin ° K = 37.15 - (D * 2 / 3)  *Not Verified 
+K = 373.15 - (D * (2/3)) 
+	//Delisle to Rankine ° RK = (671.67 - D) * 6 / 5
+	//Delisle to Newton ° N = (33 - D) * 11 / 50 
+*Not Verified  N = 33 - D * (11/50)
+//Delisle to Romer ° RO = (60 - D) * 7 / 20   
+*Not Verified  RO = 60 - D * (7/20)
+//Delisle to Reaumur ° RE = (80 - D) * 8 / 15 
+*Not Verified RE = 80-D *(8/15)
+
+
+//Romer to Celsuis ° C = (RO - 7.5 ) / 0.525
+// *** Romer to Fahrenheit ° F = (RO - 7.5) * 24 / 39 
+*Not Verified F = (RO - 7.5) * (24/7) + 32
+//Romer to Kelvin ° K = (R - 7.5) * 40 / 294.15
+//Romer to Kelvin ° K = 21/40 * (R - 273.15) + 7.5  I USED THIS ONE
+ // *Not Verified K = (R - 7.5) * (40/21) + 273.15
+
+//Romer to Rankine ° RK = ((RO - 7.5) * 24 / 7) + 491.67
+//Romer to Newton ° N = (RO - 7.5) * 22 / 35
+//Romer to Delisle ° D = (60 - RO) * 20 / 7
+//Romer to Reaumur ° RE = (RO - 7.5) * 32 / 21
+
+//Reaumur to Celsuis ° C = RE * 1.25
+//Reaumur to Fahrenheit ° F = (RE * 2.25) + 32
+//Reaumur to Kelvin ° K = (RE * 125) + 273.15 *
+Not Verified K = RE * (5/4) + 273.15
+//Reaumur to Rankine ° RK = (RE * 2.25) +491.67
+//Reaumur to Newton ° N = RE * 33 / 80
+//Reaumur to Delisle ° D = (60 - RE) * 20 / 7 
+*Not Verified D = (80 - RE) * (15/8) 
+//Reaumur to Romer ° RO = (RE * 0.65625) + 7.5
